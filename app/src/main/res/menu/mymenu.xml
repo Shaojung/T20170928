@@ -4,8 +4,12 @@
 
     <item
         android:id="@+id/menu1"
-        android:title="新增" />
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="新增"
+        app:showAsAction="always" />
     <item
         android:id="@+id/menu2"
-        android:title="關於" />
+        android:icon="@android:drawable/ic_menu_more"
+        android:title="關於"
+        app:showAsAction="never" />
 </menu>
