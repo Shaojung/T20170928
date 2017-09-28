@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
 //        menu.add(0, 1, 0, "選單一");
 //        menu.add(0, 2, 0, "選單二");
         getMenuInflater().inflate(R.menu.mymenu, menu);
-
+        //
         return super.onCreateOptionsMenu(menu);
     }
 
